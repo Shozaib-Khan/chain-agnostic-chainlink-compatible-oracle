@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Hardhat files
+artifacts/
+cache/
+typechain-types/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+coverage.json
+*.lcov
+
+# Gas reporter output
+gas-report.txt
+
+# Hardhat specific
+.openzeppelin/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build outputs
+build/
+dist/
+
+# Package lock files (choose one based on your preference)
+# package-lock.json
+# yarn.lock
+
+# Forge/Foundry specific (if using alongside Hardhat)
+out/
+broadcast/
+
+# Local deployment addresses
+deployments/localhost/
+deployments/hardhat/
+
+# Flatten contracts
+flattened/
+
+# Documentation build
+docs/
